@@ -19,10 +19,10 @@ BuildRoot:        %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:        noarch
 
 BuildRequires:    java-devel >= 0:1.6.0
-BuildRequires:    jpackage-utils
+BuildRequires:    jpackage-utils >= 0:1.7.5
 
 Requires:         java >= 0:1.6.0
-Requires:         jpackage-utils
+Requires:         jpackage-utils >= 0:1.7.5
 Requires:         maven
 Requires:         maven-antrun-plugin
 Requires:         maven-compiler-plugin
@@ -33,8 +33,8 @@ Requires:         maven-javadoc-plugin
 Requires:         maven-plugin-bundle
 Requires:         maven-resources-plugin
 Requires:         maven-surefire-plugin
-Requires(post):   jpackage-utils
-Requires(postun): jpackage-utils
+Requires(post):   jpackage-utils >= 0:1.7.5
+Requires(postun): jpackage-utils >= 0:1.7.5
 
 
 %description
