@@ -1,0 +1,25 @@
+--- pom.xml.orig	2011-04-15 03:47:04.754033753 +0200
++++ pom.xml	2011-04-15 03:48:50.270963406 +0200
+@@ -242,8 +241,0 @@
+-          <groupId>org.apache.commons</groupId>
+-          <artifactId>commons-build-plugin</artifactId>
+-          <version>1.3</version>
+-          <configuration>
+-            <commons.release.name>${commons.release.name}</commons.release.name>
+-          </configuration>
+-        </plugin>
+-        <plugin>
+@@ -353,4 +344,0 @@
+-      <plugin>
+-        <groupId>org.apache.commons</groupId>
+-        <artifactId>commons-build-plugin</artifactId>
+-      </plugin>
+@@ -812,8 +799,0 @@
+-    <!-- Default values for the download-page generation by commons-build-plugin -->
+-    <commons.release.name>${project.artifactId}-${commons.release.version}</commons.release.name>
+-    <commons.release.desc />
+-    <commons.binary.suffix>-bin</commons.binary.suffix>
+-    <commons.release.2.name>${project.artifactId}-${commons.release.2.version}</commons.release.2.name>
+-    <commons.release.2.desc />
+-    <commons.release.2.binary.suffix>-bin</commons.release.2.binary.suffix>
+-
