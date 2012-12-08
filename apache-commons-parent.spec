@@ -3,7 +3,7 @@
 
 Name:             apache-%{short_name}
 Version:          20
-Release:          4
+Release:          3
 Summary:          Apache Commons Parent Pom
 Group:            Development/Java
 License:          ASL 2.0
@@ -70,4 +70,21 @@ rm -rf %{buildroot}
 %doc LICENSE.txt NOTICE.txt
 %{_mavenpomdir}/*
 %{_mavendepmapfragdir}/*
+
+
+
+%changelog
+* Sun Nov 27 2011 Guilherme Moro <guilherme@mandriva.com> 20-3
++ Revision: 733818
+- rebuild
+- imported package apache-commons-parent
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - fix deps
+
+* Tue Oct 18 2011 Oden Eriksson <oeriksson@mandriva.com> 20-2
++ Revision: 705220
+- rebuild
+- import apache-commons-parent
+
 
