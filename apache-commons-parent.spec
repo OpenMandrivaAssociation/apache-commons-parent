@@ -15,7 +15,6 @@ Source0:          %{short_name}-%{version}.tar.xz
 
 #common-build-plugin not in fedora yet
 Patch1:           %{name}-remove-build-plugin.patch
-BuildRoot:        %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:        noarch
 
 BuildRequires:    java-devel >= 0:1.6.0
