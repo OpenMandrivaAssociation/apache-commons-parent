@@ -3,7 +3,7 @@
 
 Name:             apache-%{short_name}
 Version:          20
-Release:          3
+Release:          4
 Summary:          Apache Commons Parent Pom
 Group:            Development/Java
 License:          ASL 2.0
@@ -22,16 +22,7 @@ BuildRequires:    jpackage-utils
 
 Requires:         java >= 0:1.6.0
 Requires:         jpackage-utils
-Requires:         maven
-Requires:         maven-antrun-plugin
-Requires:         maven-compiler-plugin
-Requires:         maven-idea-plugin
-Requires:         maven-install-plugin
-Requires:         maven-jar-plugin
-Requires:         maven-javadoc-plugin
-Requires:         maven-plugin-bundle
-Requires:         maven-resources-plugin
-Requires:         maven-surefire-plugin
+Requires:         maven2
 Requires(post):   jpackage-utils
 Requires(postun): jpackage-utils
 
