@@ -3,7 +3,7 @@
 
 Name:             apache-%{short_name}
 Version:          20
-Release:          4
+Release:          5
 Summary:          Apache Commons Parent Pom
 Group:            Development/Java
 License:          ASL 2.0
