@@ -7,7 +7,7 @@ Release:          2.1%{?dist}
 Summary:          Apache Commons Parent Pom
 
 License:          ASL 2.0
-URL:              http://svn.apache.org/repos/asf/commons/proper/%{short_name}/tags/%{short_name}-%{version}/
+URL:              https://svn.apache.org/repos/asf/commons/proper/%{short_name}/tags/%{short_name}-%{version}/
 
 # svn export http://svn.apache.org/repos/asf/commons/proper/commons-parent/tags/commons-parent-32
 # tar caf commons-parent-32.tar.xz commons-parent-32
