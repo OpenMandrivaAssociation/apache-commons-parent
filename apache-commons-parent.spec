@@ -11,6 +11,9 @@ URL:              https://github.com/apache/commons-parent
 Source0:          https://github.com/apache/commons-parent/archive/refs/tags/rel/commons-parent-%{version}.tar.gz
 
 BuildArch:        noarch
+# Literal, so the first rpmbuild -bs records them before sysjar is installed.
+BuildRequires:	maven
+BuildRequires:	java-current-devel
 BuildSystem:	maven
 BuildOption:	validate
 
